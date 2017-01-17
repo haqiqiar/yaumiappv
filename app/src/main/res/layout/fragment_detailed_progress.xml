@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.DetailedProgressFragment">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress yang telah dicapai selama 1 bulan"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreen"
+            android:padding="16dp"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <GridView
+                android:id="@+id/gridTarget"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:numColumns="2"
+                android:gravity="center"
+                android:columnWidth="100dp"
+                android:horizontalSpacing="8dp"
+                android:verticalSpacing="8dp"
+                android:stretchMode="columnWidth"
+                android:layout_weight="2"
+                >
+
+            </GridView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

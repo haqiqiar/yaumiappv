@@ -1,0 +1,55 @@
+{
+  "tgl": [
+    {
+      "idtgl": "12/3/2015",
+      "amal": [
+        {
+          "idamal": "1",
+          "namaamal": "puasa",
+          "value": "1",
+          "satuan": "checklist"
+        }
+        ,
+        {
+          "idamal": "2",
+          "namaamal": "Sholat Dhuha",
+          "value": "3",
+          "satuan": "numeric"
+        }
+        ,
+        {
+          "idamal": "3",
+          "namaamal": "Sholat Tahajjud",
+          "value": "2",
+          "satuan": "numeric"
+        }
+      ]
+    }
+    ,
+    {
+      "idtgl": "13/3/2015",
+      "amal": [
+        {
+          "idamal": "1",
+          "namaamal": "puasa",
+          "value": "3",
+          "satuan": "checklist"
+        }
+        ,
+        {
+          "idamal": "2",
+          "namaamal": "Sholat Dhuha",
+          "value": "4",
+          "satuan": "numeric"
+        }
+        ,
+        {
+          "idamal": "3",
+          "namaamal": "Sholat Tahajjud",
+          "value": "5",
+          "satuan": "numeric"
+        }
+      ]
+    }
+  ]
+}

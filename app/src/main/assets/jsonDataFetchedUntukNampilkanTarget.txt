@@ -1,0 +1,24 @@
+{
+  "amal": [
+    {
+      "idamal": "1",
+      "namaamal": "puasa",
+      "value": "3",
+      "satuan": "checklist"
+    }
+    ,
+    {
+      "idamal": "2",
+      "namaamal": "Sholat Dhuha",
+      "value": "4",
+      "satuan": "numeric"
+    }
+    ,
+    {
+      "idamal": "3",
+      "namaamal": "Sholat Tahajjud",
+      "value": "5",
+      "satuan": "numeric"
+    }
+  ]
+}

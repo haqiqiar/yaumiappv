@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HaveYouDoneItFragment">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal|center_vertical" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutH"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Ibadah yang telah anda lakukan hari ini "
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorGreen"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_weight="4"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/findSelected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/colorAccent1"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+</FrameLayout>
